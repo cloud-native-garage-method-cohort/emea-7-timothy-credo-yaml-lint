@@ -1,4 +1,5 @@
+---
 this:
-  is:
-  - a: valid
-    yaml: file
+    is:
+      - a: valid
+        yaml: file
