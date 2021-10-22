@@ -7,11 +7,11 @@ spec:
     pipelineRef:
         name: yaml-linting
     workspaces:
-      - name: shared-workspace
-        volumeClaimTemplate:
-            spec:
-                accessModes:
-                  - ReadWriteOnce
-                resources:
-                      requests:
-                          storage: 1Gi
+        - name: shared-workspace
+          volumeClaimTemplate:
+              spec:
+                  accessModes:
+                    - ReadWriteOnce
+                  resources:
+                        requests:
+                            storage: 1Gi
